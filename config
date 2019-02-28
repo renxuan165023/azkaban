@@ -1,0 +1,7 @@
+USER='admin'
+PASS='admin'
+JUSER='logstash'
+JPASS='123456'
+CLUSTER='wsm'
+HOST=pa-ops-ambari01:8080
+JENKINSURL=jenkins.wsmfin.com:8080

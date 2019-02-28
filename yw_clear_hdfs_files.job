@@ -1,0 +1,4 @@
+#清除缓存
+type=command
+command=sh ./ClearHdfsFiles.sh
+dependencies=yw_stop_spark_jobs

@@ -1,0 +1,4 @@
+#清除缓存
+type=command
+command=ssh -o StrictHostKeyChecking=no root@10.1.33.211 "sync; echo 1 > /proc/sys/vm/drop_caches; echo 2 > /proc/sys/vm/drop_caches"
+dependencies=yw_restart_yarn

@@ -1,0 +1,4 @@
+#重启YARN
+type=command
+command=sh ./ServiceRestart.sh restart YARN
+dependencies=yw_restart_active_namenode

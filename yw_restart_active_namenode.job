@@ -1,0 +1,4 @@
+#重启NameNode
+type=command
+command=sh ./ComponentRestart.sh restart HDFS NAMENODE
+dependencies=yw_clear_hdfs_files

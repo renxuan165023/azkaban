@@ -1,0 +1,4 @@
+#确认ResourceManage任务
+type=command
+command=sh ./ResourceManageRunningJobs.sh
+dependencies=start

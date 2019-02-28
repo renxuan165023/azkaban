@@ -1,0 +1,4 @@
+#启动SPARK任务
+type=command
+command=sh ./JenkinsJobs.sh restart test-Control
+dependencies=yw_clear_memory_nn01,yw_clear_memory_nn02,yw_clear_memory_dn01,yw_clear_memory_dn02

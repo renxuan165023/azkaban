@@ -1,0 +1,4 @@
+#停止SPARK任务
+type=command
+command=sh ./JenkinsJobs.sh stop test-Control
+dependencies=yw_check_resource_manage_jobs
